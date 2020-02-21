@@ -1,12 +1,13 @@
 pipeline{
   agent any
-  stage('Build'){
-    steps{
-      checkout scm
-      sh 'ls'
-      sh 'pwd'
+  stages{
+    stage('Build'){
+      steps{
+        checkout scm
+        sh 'ls'
+        sh 'pwd'
+      }
     }
   }
 }
-  
       
