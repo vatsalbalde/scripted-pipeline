@@ -2,7 +2,7 @@ node {
     def i = '1'
         stage "Stage #"+i
         print 'Hello, world !'
-        git 'https://github.com/vatsalbalde/scripted-pipeline.git'
+        checkout scm
         sh 'ls'
         sh 'pwd'
         
