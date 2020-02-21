@@ -9,7 +9,7 @@ pipeline {
         API_KEY = 'ISCP123'
       }
       steps {
-        sh 'printenv'
+        sh 'env'
       }
     }
   }
