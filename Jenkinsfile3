@@ -2,7 +2,7 @@ pipeline{
   agent{
     docker{
       name 'ibmcloud'
-      image 'ibmcom/ibm-cloud-developer-tools-amd64'
+      image 'ibm.com/ibm-cloud-developer-tools-amd64'
     }
   }
   environment{
